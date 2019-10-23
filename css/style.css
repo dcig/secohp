@@ -5,7 +5,10 @@
  *
  * Made By MaterializeCSS.com
  */
-
+body {
+  background: rgb(156,211,167);
+  background: linear-gradient(0deg, rgba(156,211,167,1) 5%, rgba(243,253,255,1) 84%);
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -23,12 +26,15 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  background-color: rgba(0,0,0,.6);
 }
   .parallax-container .section {
     width: 100%;
   }
-
+.parallax {
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+}
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
