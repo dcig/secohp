@@ -17,7 +17,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 400px;
   line-height: 0;
   height: auto;
   background-color: rgba(0,0,0,.6);
